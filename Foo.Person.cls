@@ -8,7 +8,7 @@ Method TakeADump() As %String
     return ..Poop
 }
 
-Property Poop As %String [ InitialExpression = "stinky" ];
+//Property Poop As %String [ InitialExpression = "stinky" ];
 
 Parameter EXTENTQUERYSPEC = "Name,SSN,Home.City,Home.State";
 
