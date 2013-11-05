@@ -1,0 +1,11 @@
+#define Jimmy   $H
+#define FooBee(%1)  "Foo"_(2*%1)_" Bee"
+
+huh(yo) public  {
+    set x=$$$FooBee(1000)
+    return x_" HIHIHI"
+}
+
+what()  public {
+    write "Hi De ho ",$ZV,!
+}
